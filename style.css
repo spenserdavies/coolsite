@@ -1,0 +1,71 @@
+:root{
+  --banner: rgb(30, 65, 129);
+  --bannerLight: rgb(158, 182, 226);
+  --border: black;
+}
+
+header{
+  height: 100px;
+  text-align: center;
+  background-color: var(--banner);
+  color: white;
+  padding-top: 1em;
+  text-shadow: 1px 1px black;
+  border: 2px solid var(--border);
+}
+main{
+  text-align: center;
+  font-size: 14pt;
+}
+article{
+  text-align: center;
+  /* padding-top: 1em;
+  padding-left: 2em; */
+  padding: 2em;
+}
+
+section{
+  width: 200px;
+  padding: 1em;
+  text-align:center;
+}
+footer{
+  height: 100px;
+  background-color: var(--banner);
+  border: 2px solid var(--border);
+}
+
+
+
+
+
+
+.article{
+  display:inline-block;
+  width: 50%;
+}
+.aside{
+  display:inline-block;
+  margin: auto;
+  width: 30%;
+}
+.banner{
+  background: linear-gradient(to bottom, var(--bannerLight) 50%, white 50%);
+  margin: auto;
+  padding-top: 1.5em;
+
+}
+.body{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.title{
+  color: white;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
